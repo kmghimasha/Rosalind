@@ -1,0 +1,12 @@
+dna = ''
+revc = ''
+for c in dna:
+    if c == 'A':
+        revc = 'T' + revc
+    elif c == 'C':
+        revc = 'G' + revc
+    elif c == 'G':
+        revc = 'C' + revc
+    elif c == 'T':
+        revc = 'A' + revc
+print (revc)
